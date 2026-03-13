@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Файлы с токенами
+.env
+.env.local
+
+# Базы данных
+*.json
+!package.json  # если есть
+!package-lock.json  # если есть
+
+# Логи и временные файлы
+*.log
+*.txt
+!requirements.txt
+!README.md
+
+# Виртуальное окружение
+venv/
+__pycache__/
+*.pyc
